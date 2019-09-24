@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/fonts/icomoon/style.css' %}">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/owl.theme.default.min.css' %}">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/bootstrap-datepicker.css' %}">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/fonts/flaticon/font/flaticon.css' %}">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/aos.css' %}">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'se_dmc/css/style.css' %}">
     
   </head>
   <body>
@@ -62,7 +63,7 @@
         <div class="row align-items-center">
           
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Chimper</a></h1>
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">SE & DMC</a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -131,7 +132,7 @@
                     </div>
                     <h2>Welcome To Chimper An Awward Winning Web Agency</h2>
                   </div>
-                  <img src="images/about_1.jpg" alt="Image" class="img-feature img-fluid">
+                  <img src="{% static 'se_dmc/images/about_1.jpg' %}" alt="Image" class="img-feature img-fluid">
                 </div>
               </div>
               <div class="col-lg-3 ml-auto">
@@ -211,7 +212,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a href="#" class="media-1">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_1.jpg' %}" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project Name 1</h2>
                 <span class="category">Web Application</span>
@@ -220,7 +221,7 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <a href="#" class="media-1">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_2.jpg' %}" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project Name 2</h2>
                 <span class="category">Branding</span>
@@ -229,7 +230,7 @@
           </div>
           <div class="col-md-6 col-lg-4">
             <a href="#" class="media-1">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_3.jpg' %}" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>Project Name 3</h2>
                 <span class="category">Website</span>
@@ -264,7 +265,7 @@
               </blockquote>
 
               <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <div><img src="{% static 'se_dmc/images/person_3.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>John Smith</p>
               </figure>
             </div>
@@ -276,7 +277,7 @@
                 <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <div><img src="{% static 'se_dmc/images/person_2.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>Christine Aguilar</p>
               </figure>
               
@@ -290,7 +291,7 @@
                 <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <div><img src="{% static 'se_dmc/images/person_4.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>Robert Spears</p>
               </figure>
 
@@ -305,7 +306,7 @@
                 <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                <div><img src="{% static 'se_dmc/images/person_5.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>Bruce Rogers</p>
               </figure>
 
@@ -326,7 +327,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_1.jpg' %}" alt="Image" class="img-fluid">
               <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
               <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
@@ -335,7 +336,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_2.jpg' %}" alt="Image" class="img-fluid">
               <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
               <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
@@ -344,7 +345,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              <img src="{% static 'se_dmc/images/img_1.jpg' %}" alt="Image" class="img-fluid">
               <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
               <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
@@ -419,19 +420,19 @@
     </footer>
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+  <script src="{% static 'se_dmc/js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/jquery-ui.js' %}"></script>
+  <script src="{% static 'se_dmc/js/popper.min.js' %}' %}"></script>
+  <script src="{% static 'se_dmc/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/jquery.countdown.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/bootstrap-datepicker.min.js' %}"></script>
+  <script src="{% static 'se_dmc/js/aos.js' %}"></script>
 
-  <script src="js/typed.js"></script>
+  <script src="{% static 'se_dmc/js/typed.js' %}"></script>
             <script>
             var typed = new Typed('.typed-words', {
             strings: ["Web Apps"," WordPress"," Mobile Apps"],
@@ -444,7 +445,7 @@
             });
             </script>
 
-  <script src="js/main.js"></script>
+  <script src="{% static 'se_dmc/js/main.js' %}"></script>
     
   </body>
 </html>
