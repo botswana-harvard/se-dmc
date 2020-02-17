@@ -5,3 +5,10 @@ from .work import Work
 from .work_single import WorkSingle
 from .about import About
 from .contact import Contact
+from .Tshilo_Dikotla import TshiloDikotla
+from .Cancer import Cancer
+from .microbiome import Microbiome
+from .LIS import LIS
+from .EIT import EIT
+from .BCPP import BCPP
+from .ambition import Ambition
