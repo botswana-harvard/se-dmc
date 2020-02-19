@@ -76,6 +76,18 @@
 								<li><a href="{% url 'services' %}">Services</a></li>
 								<li><a href="{% url 'about' %}">About</a></li>
 								<li><a href="{% url 'contact' %}">Contact</a></li>
+								<li class="has-children"><a href="{% url 'services' %}">Policy</a>
+									<ul class="dropdown">
+										<li><a href="{% url 'policy' %}">BHP Policy</a></li>
+										<li><a href="{% url 'document' %}">Documents </a></li>
+									</ul></li>
+								<li class="has-children"><a href="{% url 'services' %}">Other Links</a>
+									<ul class="dropdown">
+										<li><a href="http://utility-systems.bhp.org.bw:8000" target="_blank">BHP Utility System</a></li>
+										<li><a href="https://www.redmine.org/" target="_blank">BHP RedMine </a></li>
+										<li><a href="https://github.com/botswana-harvard" target="_blank">BHP Git Hub</a></li>
+										<li><a href="https://bhp.org.bw/" target="_blank">BHP Website</a></li>
+									</ul></li>
 							</ul>
 						</nav>
 					</div>
@@ -95,10 +107,7 @@
 		
 		{% block footer %}
 		<footer class="site-footer">
-			<div class="container">
 
-					<div class="col-md-12">
-						<div class="border-top pt-5">
 							<p>
 							<div align="center" >
                                 <font color="white">
@@ -113,11 +122,7 @@
                                 </font>
                             </div>
 							</p>
-						</div>
-					</div>
 
-
-			</div>
 		</footer>
 		{% endblock %}
 	</div>
