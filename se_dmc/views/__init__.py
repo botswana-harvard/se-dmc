@@ -5,5 +5,5 @@ from .work import Work
 from .about import About
 from .contact import Contact,contact
 from .policy import Policy
-from .document import Document
+from .document import Documents, document_list
 

@@ -23,12 +23,28 @@
     <section class="site-section">
       
       <div class="container">
-        <div class="row">
 
+          <table class="table mb-0">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Download</th>
+        </tr>
+        </thead>
+        <tbody>
+          {% for document in documents %}
+            <tr>
+                <td>{{ document.title }}</td>
+                <td>
+                    <a href="{{ document.file.url }}" class="btn btn-primary btn-sm" target="_blank">
+                        Download Document
+                    </a>
+                </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
 
-
-
-        </div>
       </div>
     </section>
 
