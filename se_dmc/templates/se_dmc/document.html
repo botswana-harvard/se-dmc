@@ -28,6 +28,7 @@
         <thead>
         <tr>
             <th>Title</th>
+            <th>Description</th>
             <th>Download</th>
         </tr>
         </thead>
@@ -35,6 +36,7 @@
           {% for document in documents %}
             <tr>
                 <td>{{ document.title }}</td>
+                <td>{{ document.description }}</td>
                 <td>
                     <a href="{{ document.file.url }}" class="btn btn-primary btn-sm" target="_blank">
                         Download Document
