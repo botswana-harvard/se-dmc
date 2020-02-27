@@ -25,6 +25,14 @@ SECRET_KEY = 'iz)km$4x_!_gs00cv#(_%o_(xc*1et(e7eavgx9s$-0uzzhml6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+EMAIL_HOST = 'smtp.zoho.com'
+EMAIL_HOST_USER = 'thatokgamaetsile@outlook.com'
+EMAIL_HOST_PASSWORD = '77596236Uzzi'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+
 ALLOWED_HOSTS = []
 
 
@@ -38,7 +46,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'se_dmc.apps.AppConfig',
+    'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -70,6 +81,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'se_dmc.wsgi.application'
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'thatokgamaetsile@gmail.com'
+EMAIL_HOST_PASSWORD = '77596236UZZI'
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = True
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
