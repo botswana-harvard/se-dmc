@@ -14,10 +14,7 @@ class ContactForm(models.Model):
 
 
 def save_post(sender, instance, **kwargs):
-    print("working")
-
-
-post_save.connect(save_post, sender=ContactForm)
+    post_save.connect(save_post, sender=ContactForm)
 
 
 
