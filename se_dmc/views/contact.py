@@ -19,18 +19,20 @@ class Contact(TemplateView):
         form = contactinfo()
         return render(request, self.template_name, {'form': form})
 
-    def post(self, request, *args, **kwargs):
+       def post(self, request):
         form = contactinfo(request.POST)
         if form.is_valid():
-            first_name = form.cleaned_data['first_name']
+            first_name = request.POST.get('first_name')
             last_name = request.POST.get('last_name')
             email = request.POST.get('email')
             subject = request.POST.get('subject')
             message = request.POST.get('message')
             self.fields.save()
             messages.success(request, "Thank you, message sent")
-            print(first_name, last_name, email, subject, message)
-            send_mail(subject, message, first_name, recipient_list=['wmathaka@bhp.org.bw'])
+            send_mail(subject, 'Message from: {0}{1}\nOf email: {2}\nSubject: {4}\nMessage: {3}'.format(first_name.title(), last_name.title()
+                      , email
+                      , message, subject), from_email=first_name+last_name, recipient_list=['wmathaka@bhp.org.bw', 'ckgathi@bhp.org.bw'],
+                      fail_silently=False)
 
             return HttpResponseRedirect('contact')
         else:
