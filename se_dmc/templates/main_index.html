@@ -1,8 +1,8 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Chimper &mdash; Colorlib Website Template</title>
+<title>BHP-DMC</title>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -53,13 +53,7 @@
 								<a href="#">se-dmc@gmail.com</a></span>
 						</p>
 					</div>
-					<div class="col-md-6">
-						<ul class="social-media">
-							<li><a href="https://www.facebook.com/" target="_blank" class="p-2"><span class="icon-facebook"></span></a></li>
-							<li><a href="http://github.com/" target="_blank" class="p-2"><span class="icon-github"></span></a></li>
-							<li><a href="https://www.linkedin.com/" target="_blank" class="p-2"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -76,16 +70,25 @@
 						<nav class="site-navigation position-relative text-right"
 							role="navigation">
 
-							{% with request.resolver_match.url_name as url_name %}
 							<ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-								<li class="{% if url_name == 'home_url' %}active{% endif %}"><a href="{% url 'home_url' %}">Home</a></li>
-								<li class="{% if url_name == 'work' %}active{% endif %}"><a href="{% url 'work' %}">Work</a></li>
-								<li class="{% if url_name == 'services' %}active{% endif %}"><a href="{% url 'services' %}">Services</a>
-									</li>
-								<li class="{% if url_name == 'about' %}active{% endif %}"><a href="{% url 'about' %}">About</a></li>
-								<li class="{% if url_name == 'contact' %}active{% endif %}"><a href="{% url 'contact' %}">Contact</a></li>
+								<li><a href="{% url 'home_url' %}">Home</a></li>
+								<li><a href="{% url 'work' %}">Work</a></li>
+								<li><a href="{% url 'services' %}">Services</a></li>
+								<li><a href="{% url 'about' %}">About</a></li>
+								<li><a href="{% url 'contact' %}">Contact</a></li>
+								<li class="has-children"><a href="{% url 'policy' %}">Policy</a>
+									<ul class="dropdown">
+										<li><a href="{% url 'policy' %}">BHP Policy</a></li>
+										<li><a href="{% url 'document' %}">Documents </a></li>
+									</ul></li>
+								<li class="has-children"><a href="{% url 'services' %}">Other Links</a>
+									<ul class="dropdown">
+										<li><a href="http://utility-systems.bhp.org.bw:8000" target="_blank">BHP Utility System</a></li>
+										<li><a href="https://www.redmine.org/" target="_blank">BHP RedMine </a></li>
+										<li><a href="https://github.com/botswana-harvard" target="_blank">BHP Git Hub</a></li>
+										<li><a href="https://bhp.org.bw/" target="_blank">BHP Website</a></li>
+									</ul></li>
 							</ul>
-							{% endwith %}
 						</nav>
 					</div>
 
@@ -104,69 +107,22 @@
 		
 		{% block footer %}
 		<footer class="site-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-9">
-						<div class="row">
-							<div class="col-md-5">
-								<h2 class="footer-heading mb-4">About Us</h2>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Neque facere laudantium magnam voluptatum autem. Amet aliquid
-									nesciunt veritatis aliquam.</p>
-							</div>
-							<div class="col-md-3 ml-auto">
-								<h2 class="footer-heading mb-4">Features</h2>
-								<ul class="list-unstyled">
-									<li><a href="{% url 'about' %}">About Us</a></li>
-									<li><a href="{% url 'services' %}">Services</a></li>
-									<li><a href="{% url 'work' %}">Testimonials</a></li>
-									<li><a href="{% url 'contact' %}">Contact Us</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3">
-								<h2 class="footer-heading mb-4">Follow Us</h2>
-								<a href=""https://www.facebook.com/" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-								<a href="http://twitter.com/" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-								<a href="http://instagram.com/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-								<a href="http://linkedin.com/" target="_blank" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-						<form action="#" method="post">
-							<div class="input-group mb-3">
-								<input type="text"
-									class="form-control border-secondary text-white bg-transparent"
-									placeholder="Enter Email" aria-label="Enter Email"
-									aria-describedby="button-addon2">
-								<div class="input-group-append">
-									<button class="btn btn-primary text-white" type="button"
-										id="button-addon2">Send</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="row pt-5 mt-5 text-center">
-					<div class="col-md-12">
-						<div class="border-top pt-5">
+
 							<p>
+							<div align="center" >
+                                <font color="white">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								Copyright &copy;
 								<script>
 									document.write(new Date().getFullYear());
 								</script>
-								All rights reserved | This template is made with <i
-									class="icon-heart" aria-hidden="true"></i> by <a
-									href="https://colorlib.com" target="_blank">Colorlib</a>
+								All rights reserved | This web-application was developed with  <a
+									href="https://www.djangoproject.com/" target="_blank">Django</a>
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </font>
+                            </div>
 							</p>
-						</div>
-					</div>
 
-				</div>
-			</div>
 		</footer>
 		{% endblock %}
 	</div>
@@ -186,7 +142,7 @@
 	<script src="{% static 'se_dmc/js/typed.js' %}"></script>
 	<script>
 		var typed = new Typed('.typed-words', {
-			strings : [ "Web Apps", " WordPress", " Mobile Apps" ],
+			strings : [ "Web Apps", " Django Framework", " Mobile Apps" ],
 			typeSpeed : 80,
 			backSpeed : 80,
 			backDelay : 4000,
