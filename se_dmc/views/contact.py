@@ -54,7 +54,3 @@ def contact(request):
     }
     template = 'se_dmc/contact.html'
     return render(request, template, context)
-
-
-
-
