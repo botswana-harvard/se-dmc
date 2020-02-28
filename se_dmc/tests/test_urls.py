@@ -1,6 +1,6 @@
 from django.test import  SimpleTestCase
 from django.urls import resolve, reverse
-from se_dmc.views import HomeView, About, Services, Work, contact
+from se_dmc.views import HomeView, About, Services, Work, contact, Documents, Policies
 
 class TestUrls(SimpleTestCase):
 
@@ -28,6 +28,16 @@ class TestUrls(SimpleTestCase):
         url = reverse('contact')
         print(resolve(url))
         self.assertEquals(resolve(url).func, contact)
+
+    def test_documents_url_resolves(self):
+        url = reverse('document')
+        print(resolve(url))
+        self.assertEquals(resolve(url).func.view_class, Documents)
+
+    def test_policies_url_resolves(self):
+        url = reverse('policy')
+        print(resolve(url))
+        self.assertEquals(resolve(url).func.view_class, Policies)
 
 
 

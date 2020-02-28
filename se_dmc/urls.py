@@ -18,19 +18,19 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
-from .views import Blog, HomeView, Services, Work, About, Contact, contact, Policy, Documents, document_list
+from .views import Blog, HomeView, Services, Work, About, Contact, contact, Documents, document_list, Policies
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home_url'),
-    path('blog', Blog.as_view(), name='blog'),
-    path('about', About.as_view(), name='about'),
-    path('policy', Policy.as_view(), name='policy'),
-    path('documents', Documents.as_view(), name='document'),
+    path('blog/', Blog.as_view(), name='blog'),
+    path('about/', About.as_view(), name='about'),
+    path('policy/', Policies.as_view(), name='policy'),
+    path('documents/', Documents.as_view(), name='document'),
     #path('documents', document_list, name='document'),
-    path('services', Services.as_view(), name='services'),
-    path('work', Work.as_view(), name='work'),
-    path('contact', contact, name='contact'),
+    path('services/', Services.as_view(), name='services'),
+    path('work/', Work.as_view(), name='work'),
+    path('contact/', contact, name='contact'),
 
 ]
 
