@@ -101,4 +101,10 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
+.mypy_cache
+
+se_dmc/templates/main_index.html
+se_dmc/templates/se_dmc/contact.html
+se_dmc/views/contact.py
+se_dmc/views/settings.py
+
