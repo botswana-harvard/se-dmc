@@ -104,8 +104,8 @@ venv.bak/
 .mypy_cache
 
 #avoiding comflicts
-se_dmc/templates/main_index.html
-se_dmc/templates/se_dmc/contact.html
-se_dmc/views/contact.py
-se_dmc/settings.py
+/se_dmc/templates/main_index.html
+/se_dmc/templates/se_dmc/contact.html
+/se_dmc/views/contact.py
+/se_dmc/settings.py
 
