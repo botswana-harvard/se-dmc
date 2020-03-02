@@ -101,7 +101,7 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache
+.mypy_cache/
 
 #avoiding comflicts
 /se_dmc/templates/main_index.html
