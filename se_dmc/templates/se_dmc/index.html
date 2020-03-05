@@ -1,4 +1,4 @@
- {% extends "main_index.html" %}
+{% extends "main_index.html" %}
 
 {% block content %}
 	{% load static %}
@@ -11,8 +11,8 @@
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>We Are Expert in <span class="typed-words"></span></h1>
-                <p class="lead mb-5">We Develop Data Capturing Systems</p>
-                <div><a href="#" class="btn btn-primary btn-md">Hire Us</a></div>
+                <p class="lead mb-5">We Make Beautiful Things</p>
+                <div><a href="{% url 'contact' %}" class="btn btn-primary btn-md">Hire Us</a></div>
               </div>
             </div>
 
@@ -30,38 +30,36 @@
                 <div class="h-100">
                   <div class="mb-5 d-flex align-items-center">
                     <div>
+
                       <a href="https://vimeo.com/317571768" class="popup-vimeo d-block play"><span class="icon-play"></span></a>
                     </div>
-                    <h2>Welcome To Chimper An Awward Winning Web Agency</h2>
+                    <h2>Welcome To Botswana Harvard Partnership SE-DMC Website</h2>
                   </div>
-                  <img src="{% static 'se_dmc/images/bhp2.png' %}" alt="Image" class="img-feature img-fluid">
+                  <img src="{% static 'se_dmc/images/about_1.jpg' %}" alt="Image" class="img-feature img-fluid">
                 </div>
               </div>
               <div class="col-lg-3 ml-auto">
                 <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-phonelink mr-2"></span><span>Web Design</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
+                  <h3 class="d-flex align-items-center"><span class="icon icon-laptop2 mr-2"></span><span>Web Design</span></h3>
+                  <p>Design websites that are of the right operations with the correct functions as specified by the client and meeting the clients time constraints</p>
                 </div>
 
                 <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-extension mr-2"></span><span>Branding &amp; Identity</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
+                  <br/><h3 class="d-flex align-items-center"><span class="icon icon-phonelink mr-2"></span><span>Mobile Application</span></h3>
+                  <p>Develop mobile applications that support the lifecycle (concept, design, test, release and support),
+                    with optimized performance, battery usage, network, and memory management. </p>
                 </div>
 
               </div>
               <div class="col-lg-3">
                 <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-format_paint mr-2"></span><span>Art Direction</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
+                  <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>Web Application</span></h3>
+                  <p>Develop web applications, by studying information conferring with users and studying systems flow, data usage, work processes as well as investigating problem areas.</p>
                 </div>
 
                 <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>Copywriting</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
+                  <h3 class="d-flex align-items-center"><span class="icon icon-settings mr-2"></span><span>Website Support</span></h3>
+                  <p>Supports Web-based services through email, desktop and telephone support. Interacts with customers and troubleshoots problems to provide a high level of satisfaction. </p>
                 </div>
               </div>
             </div>
@@ -77,8 +75,8 @@
           <div class="col-md-6 col-lg-4">
             <div class="p-3 box-with-humber">
               <div class="number-behind">01.</div>
-              <h2>Our Values</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <h2>Our Vision</h2>
+              <p>Building and maintaining long lasting relationship with our clients by delivering good quality systems and providing innovative business solutions.</p>
             </div>
           </div>
 
@@ -86,24 +84,78 @@
             <div class="p-3 box-with-humber">
               <div class="number-behind">02.</div>
               <h2>Our Mission</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <p>To boost the growth and production of our clients by providing good quality
+                website and mobile designs, SEO services, Software Development services
+                with the right performance and correct operations within specified deadlines</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="p-3 box-with-humber">
               <div class="number-behind">03.</div>
-              <h2>Our Philosophy</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+              <h2>Our Values</h2>
+              <p style="font-size:14px"> <b>•Integrity and Trust:</b> build and maintain honesty, reliability and ethical environment in our system development process.<br/>
+                  <b>•Driven for Results:</b> positive results for individuals, groups and companies.<br/>
+                  <b>•Leadership through Teamwork:</b> achieving success through effectively working together.<br/>
+                  <b>•Ingenuity and Innovation:</b> encouraging new ideas and continuous improvement.<br/>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="site-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="text-black h1 site-section-heading text-center">Featured Projects</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'bcpp' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/img_3.jpg' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>BCPP</h2>
+                <span class="category">Botswana Combination Prevention Project</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'lis' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/LIS.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>LIS</h2>
+                <span class="category">Laboratory Information Management System</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'Tshilo_Dikotla' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Tshilo_Dikotla.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>Tshilo_Dikotla</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 text-center mt-5">
+            <a href="{% url 'work' %}"class="btn btn-primary btn-md">Show All Works</a>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
 
 
-    <section class="site-section testimonial-wrap">
+
+ <section class="site-section testimonial-wrap" data-aos="fade">
+
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
@@ -114,9 +166,9 @@
       <div class="slide-one-item home-slider owl-carousel">
           <div>
             <div class="testimonial">
-              
+
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;SE-DMC is great partner with! We are extremely happy with the software, service, and support.&rdquo;</p>
               </blockquote>
 
               <figure class="mb-4 d-flex align-items-center justify-content-center">
@@ -129,13 +181,13 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>"If you want your software to perform the correct operations and to be up and running in time, SE-DMC is your whereto&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="{% static 'se_dmc/images/person_2.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>Christine Aguilar</p>
               </figure>
-              
+
             </div>
           </div>
 
@@ -143,14 +195,14 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;SE-DMC has grown so much over the year and provide amazing services&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="{% static 'se_dmc/images/person_4.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
                 <p>Robert Spears</p>
               </figure>
 
-              
+
             </div>
           </div>
 
@@ -158,7 +210,7 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;Great websites developers found at SE-DMC&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="{% static 'se_dmc/images/person_5.jpg' %}" alt="Image" class="w-50 img-fluid mb-3"></div>
@@ -170,14 +222,4 @@
 
         </div>
     </section>
-
-
-
-    <a href="#" class="bg-primary py-5 d-block">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md10"><h2 class="text-white">Hire Us &amp; Let's Get Started</h2></div>
-        </div>
-      </div>  
-    </a>
 {% endblock %}
