@@ -11,51 +11,82 @@
             <div class="row justify-content-center mb-4">
               <div class="col-md-8 text-center">
                 <h1>Our Portfolio</h1>
-                <p class="lead mb-5">We Develop Secure and Scalable Web Applications</p>
+                <p class="lead mb-5">We Make Beautiful Things</p>
               </div>
             </div>
 
           </div>
         </div>
       </div>
-    </div>  
- 
+    </div>
+
     <section class="site-section">
-      
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4">
-            <a href="www.td-live.bhp.org.bw" class="media-1">
-              <img src="{% static 'se_dmc/images/img_20.jpg' %}" alt="Image" class="img-fluid">
+            <a href="{% url 'ambition' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/ambitionn.png' %}" alt="Image" class="img-fluid">
               <div class="media-1-content">
-                <h2>Tshilo-Dikotla</h2>
-                <span class="category">Web Application</span>
+                <h2>Ambition</h2>
+                <span class="category">AMBIsome Therapy Induction OptimizatioN</span>
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="cancer-live.bhp.org.bw" class="media-1">
-              <img src="{% static 'se_dmc/images/img_21.jpg' %}" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Cancer</h2>
-                <span class="category">Web Application</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <a href="#" class="media-1">
-              <img src="{% static 'se_dmc/images/img_3.jpg' %}" alt="Image" class="img-fluid">
+           <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'bcpp' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/ya_tsie.png' %}" alt="Image" class="img-fluid">
               <div class="media-1-content">
                 <h2>BCPP</h2>
-                <span class="category">Web Application</span>
+                <span class="category">Botswana Combination Prevention Project</span>
               </div>
             </a>
           </div>
-
-
+          <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'lis' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/LIMS.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>LIS</h2>
+                <span class="category">Laboratory Information Management System</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'Cancer' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Cancer.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>CANCER</h2>
+                <span class="category">HIV and Malignancy in Botswana</span>
+              </div>
+            </a>
+          </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'eit' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/EIT.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>EIT</h2>
+                <span class="category">Early Infant Treatment</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'microbiome' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/img_6.jpg' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>MICROBIOME</h2>
+                <span class="category">MICROBIOME_STUDY</span>
+              </div>
+            </a>
+          </div>
+           <div class="col-md-6 col-lg-4 mb-4">
+            <a href="{% url 'Tshilo_Dikotla' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Tshilo_Dikotla.png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>TSHILO DIKOTLA</h2>
+                <span class="category">TSHILO DIKOTLA STUDY</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-
-
 {% endblock %}
