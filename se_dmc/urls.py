@@ -18,7 +18,8 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
-from .views import Blog, HomeView, Services, Work, About, Contact, contact, Documents, document_list, Policies
+from .views import Blog, HomeView, Services, Work, About, Contact, contact, Documents, document_list, Policies, TshiloDikotla, Cancer, BCPP, EIT, LIS, Ambition, Microbiome
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,6 +32,13 @@ urlpatterns = [
     path('services/', Services.as_view(), name='services'),
     path('work/', Work.as_view(), name='work'),
     path('contact/', contact, name='contact'),
+     path('Tshilo_Dikotla', TshiloDikotla.as_view(), name='Tshilo_Dikotla'),
+    path('Cancer', Cancer.as_view(), name='Cancer'),
+    path('ambition', Ambition.as_view(), name='ambition'),
+    path('bcpp', BCPP.as_view(), name='bcpp'),
+    path('eit', EIT.as_view(), name='eit'),
+    path('lis', LIS.as_view(), name='lis'),
+    path('microbiome', Microbiome.as_view(), name='microbiome'),
 
 ]
 
