@@ -6,4 +6,11 @@ from .about import About
 from .contact import Contact,contact
 from .policy import Policies
 from .document import Documents, document_list
+from .tshilo_dikotla import TshiloDikotla
+from .cancer import Cancer
+from .microbiome import Microbiome
+from .lis import Lis
+from .eit import Eit
+from .bcpp import Bcpp
+from .ambition import Ambition
 
