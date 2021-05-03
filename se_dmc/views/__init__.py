@@ -13,4 +13,7 @@ from .lis import Lis
 from .eit import Eit
 from .bcpp import Bcpp
 from .ambition import Ambition
-
+from .redcap import RedCap
+from .odk import OpenDataKit
+from .edc import ElectronicDataCapture
+from .dataverse import DataVerse

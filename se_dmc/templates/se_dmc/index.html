@@ -72,6 +72,98 @@
       </div>
     </section>
 
+<section class="site-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="text-black h1 site-section-heading text-center">Systems That Are Available</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'redcap' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/redcap.jpeg' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>REDCap</h2>
+                <span class="category">Research Electronic Data Capture Systems</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'odk' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/odk.svg' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>ODK</h2>
+                <span class="category">Open Data Kit</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'Tshilo_Dikotla' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Hnet.com-image (2).png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>LIS</h2>
+                  <span class="category">Lab Information Systems</span>
+              </div>
+            </a>
+          </div>
+    
+        </div>
+      </div>
+    
+    <div class="container-fluid" id="welcomeDiv"  style="display:none;">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'edc' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Hnet.com-image (4).png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>EDC</h2>
+                <span class="category">Electronic Data Capture</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="{% url 'dataverse' %}" class="media-1">
+              <img src="{% static 'se_dmc/images/Hnet.com-image (5).png' %}" alt="Image" class="img-fluid">
+              <div class="media-1-content">
+                <h2>Dataverse</h2>
+              </div>
+            </a>
+     </div>
+    
+        </div>
+      </div>
+    
+    <div class="col-12 text-center mt-5">
+        <button type="button" class="btn btn-primary btn-md" onclick="myFunction()" id="myButton1" value="Show More">Show More</button>
+    </div>
+    </section>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("welcomeDiv");
+          var btn = document.getElementById("myButton1");
+         
+          if (x.style.display == "none" ) {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        
+             if (btn.innerHTML == "Show More") {
+                 btn.innerHTML = "Show Less";
+                        }
+             else {
+                btn.innerHTML = "Show More";
+                 }
+         
+             
+        }
+        
+        </script>
+
 
     <section class="site-section">
       <div class="container">
