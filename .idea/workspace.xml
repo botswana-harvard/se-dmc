@@ -1,61 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="">
+    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/se-dmc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/se-dmc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/tests/test_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/tests/test_urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/views/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/views/policy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/se_dmc/views/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/se_dmc/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="e#630#662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/se_dmc/tests/test_urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,7 +27,20 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="922d4ec1-72ce-4a72-9a51-cc7f762acb4a" />
+        <option name="url" value="https://github.com/geek911/se-dmc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,6 +81,7 @@
     <option name="width" value="654" />
     <option name="height" value="722" />
   </component>
+  <component name="ProjectId" id="1telNHwAe2pVc3LfROJcQ4LUA76" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -171,28 +140,73 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/se_dmc/static/se_dmc/images" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RunManager" selected="Django Server.RUN">
+    <configuration name="Test" type="DjangoTestsConfigurationType">
+      <module name="se-dmc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../venv/se-dmc/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RUN" type="Python.DjangoServer" factoryName="Django server">
+      <module name="se-dmc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="se_dmc.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../venv/se-dmc/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.RUN" />
+      <item itemvalue="Django tests.Test" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,7 +217,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581339408735</updated>
+      <workItem from="1623137401855" duration="6521000" />
     </task>
+    <task id="LOCAL-00001" summary="Added EDCs System features in respect to the 21 CFR Part 11 regulations">
+      <created>1623145007613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623145007613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -228,13 +251,20 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Added EDCs System features in respect to the 21 CFR Part 11 regulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added EDCs System features in respect to the 21 CFR Part 11 regulations" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/se_dmc$Test.coverage" NAME="Test Coverage Results" MODIFIED="1623139175293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/se_dmc$Test__se_dmc_tests_test_forms_TestForms.coverage" NAME="Test: se_dmc.tests.test_forms.TestForms Coverage Results" MODIFIED="1623139125522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/se_dmc/tests/test_views.py">
