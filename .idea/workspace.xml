@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/se-dmc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/se-dmc.iml" afterDir="false" />
+    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="Switched to using a table instead of bullet points">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/se_dmc/templates/main_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/main_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581339408735</updated>
-      <workItem from="1623137401855" duration="6521000" />
+      <workItem from="1623137401855" duration="7129000" />
     </task>
     <task id="LOCAL-00001" summary="Added EDCs System features in respect to the 21 CFR Part 11 regulations">
       <created>1623145007613</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623145007613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Switched to using a table instead of bullet points">
+      <created>1623146563223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623146563223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -260,7 +267,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added EDCs System features in respect to the 21 CFR Part 11 regulations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added EDCs System features in respect to the 21 CFR Part 11 regulations" />
+    <MESSAGE value="Switched to using a table instead of bullet points" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched to using a table instead of bullet points" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/se_dmc$Test.coverage" NAME="Test Coverage Results" MODIFIED="1623139175293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
