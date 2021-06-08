@@ -18,7 +18,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
-from .views import Blog, HomeView, Services, Work, About, Contact, contact, Documents, document_list, Policies, TshiloDikotla, Cancer, Bcpp, Eit, Lis, Ambition, Microbiome
+from .views import Blog, HomeView, Services, Work, About, Contact, contact, Documents, document_list, Policies, TshiloDikotla, Cancer, Bcpp, Eit, Lis, Ambition, Microbiome, RedCap, OpenDataKit, ElectronicDataCapture, DataVerse
 
 
 urlpatterns = [
@@ -36,6 +36,10 @@ urlpatterns = [
     path('Cancer/', Cancer.as_view(), name='Cancer'),
     path('ambition/', Ambition.as_view(), name='ambition'),
     path('bcpp/', Bcpp.as_view(), name='bcpp'),
+    path('redcap/', RedCap.as_view(), name='redcap'),
+    path('odk/', OpenDataKit.as_view(), name='odk'),
+    path('edc/',ElectronicDataCapture.as_view(), name='edc'),
+    path('dataverse/',DataVerse.as_view(), name='dataverse'),
     path('eit/', Eit.as_view(), name='eit'),
     path('lis/', Lis.as_view(), name='lis'),
     path('microbiome/', Microbiome.as_view(), name='microbiome'),
