@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="Switched to using a table instead of bullet points">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/main_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/main_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" beforeDir="false" afterPath="$PROJECT_DIR$/se_dmc/templates/se_dmc/edc.html" afterDir="false" />
+    <list default="true" id="94a7eb39-8c73-4334-83c9-44561f61b8d0" name="Default" comment="Removed my personal setting.py file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623146563223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed my personal setting.py file">
+      <created>1623147665699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623147665699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -261,6 +268,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -268,7 +287,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added EDCs System features in respect to the 21 CFR Part 11 regulations" />
     <MESSAGE value="Switched to using a table instead of bullet points" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switched to using a table instead of bullet points" />
+    <MESSAGE value="Removed my personal setting.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed my personal setting.py file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/se_dmc$Test.coverage" NAME="Test Coverage Results" MODIFIED="1623139175293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

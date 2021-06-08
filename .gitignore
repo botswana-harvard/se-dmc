@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 ./se_dmc/settings.py
 .gitignore
+./.idea
