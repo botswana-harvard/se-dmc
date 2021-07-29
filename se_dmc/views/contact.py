@@ -17,7 +17,7 @@ class Contact(TemplateView):
             send_mail('Contact Form',
                       message,
                       settings.EMAIL_HOST_USER,
-                      ['thatokgamaetsile@gmail.com'],
+                      ['se-dmc@bhp.org.bw'],
                       fail_silently=False)
         return render(request, 'se_dmc/contact.html')
 
@@ -33,9 +33,7 @@ def contact(request):
             subject = contact_form.cleaned_data['subject']
             message = contact_form.cleaned_data['message']
 
-            recipients = ['tkgamaetsile@bhp.org.bw']
-            if email:
-                recipients.append(email)
+            recipients = ['se-dmc@bhp.org.bw', ]
 
             content = 'Message: '+message+' \nFirst-Name: '+firstname+'\nLast-Name: '+lastname
 
