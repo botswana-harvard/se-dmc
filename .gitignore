@@ -102,6 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-./se_dmc/settings.py
-.gitignore
-./.idea
+.idea/
+.settings/
+.DS_Store
+.project
+.pydevproject
